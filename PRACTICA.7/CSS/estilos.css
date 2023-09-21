@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #7a7a7a;
+}
+.AreaPrincipal
+{
+    background-image: url("../IMG/5594016.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    background-size:100% 100%;
+}
+.encabezado
+{
+    background: #d0e6f8;
+    height: 240px;
+    text-align: center;
+    background-image: url("../IMG/parachico.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+.piedepagina
+{
+    width: 100%;
+    height: 100px;
+    background: #15101b;
+    color: wheat;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    text-align: center;
+}
+.menu
+{
+    height: 40px;
+    position: relative;
+    top: 200px;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7a7a7a;
+}
+li
+{
+    float: left;
+}
+li a
+{
+    display: block;
+    color: wheat;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover
+{
+    background-color: #15101b;
+}
+.datos
+{
+    width: 80%;
+    background-color: rgb(140, 151, 148);
+    height: 600px;
+    margin: auto;
+    opacity: 1;
+    color:wheat;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
